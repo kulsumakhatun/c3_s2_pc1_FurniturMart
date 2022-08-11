@@ -1,0 +1,19 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\Soma\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=59379:C:\Users\Soma\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin -Dfile.encoding=UTF-8 -classpath C:\Users\Soma\NIITProjects\course3\Sprint2\c3_s2_pc1_FurniturMart\out\production\c3_s2_pc1_FurniturMart FurnitureItemImple
+Enter Furniture types
+Stools
+Enter Furniture Usage
+outdoor
+Enter Furniture color
+green
+Enter Furniture Grade
+Grade1
+Enter Furniture Price
+2000
+type : Stools
+Usage : outdoor
+Color : green
+Grade : Grade1
+Price : 2000.0
+Discounted Price : 1900.0
+
+Process finished with exit code 0
