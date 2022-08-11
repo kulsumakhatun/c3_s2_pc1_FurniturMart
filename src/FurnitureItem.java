@@ -8,20 +8,21 @@ public class FurnitureItem {
 
     FurnitureItem() {
         furnitureCode = 0;
-        furnitureTypes = "Table";
-        gradeOfFurnitures = "Garde 1";
-        colorOfFurnitures = "red";
-        furnitureUsage = "Indoor";
+        furnitureTypes = " ";
+        gradeOfFurnitures = " ";
+        colorOfFurnitures = " ";
+        furnitureUsage = " ";
         furniturePrice = 0.0;
     }
 
     double calculateDiscount() {
         double discountedPrice = furniturePrice;
-        if (furnitureUsage == "outdoor") {
+
+        if (furnitureUsage.equals("outdoor")) {
             discountedPrice = furniturePrice * 0.95;
         }
         return discountedPrice;
-
+//
 
     }
 
