@@ -1,14 +1,18 @@
+import java.util.Scanner;
 public class FurnitureItemImple {
     public static void main(String[] args) {
-
-
+        Scanner sc = new Scanner(System.in);
         FurnitureItem obj = new FurnitureItem();
-
-        obj.furnitureTypes = "Stools";
-        obj.furnitureUsage = "outdoor";
-        obj.colorOfFurnitures = "green";
-        obj.gradeOfFurnitures = "Grade1";
-        obj.furniturePrice = 1000;
+        System.out.println("Enter Furniture types");
+        obj.furnitureTypes = sc.nextLine();
+        System.out.println("Enter Furniture Usage");
+        obj.furnitureUsage = sc.nextLine();
+        System.out.println("Enter Furniture color");
+        obj.colorOfFurnitures = sc.nextLine();
+        System.out.println("Enter Furniture Grade");
+        obj.gradeOfFurnitures = sc.nextLine();
+        System.out.println("Enter Furniture Price");
+        obj.furniturePrice = sc.nextDouble();
 
 
         System.out.println("type : " + obj.furnitureTypes);
