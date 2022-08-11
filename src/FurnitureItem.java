@@ -17,7 +17,7 @@ public class FurnitureItem {
 
     double calculateDiscount() {
         double discountedPrice = furniturePrice;
-        if (furnitureTypes == "outdoor") {
+        if (furnitureUsage == "outdoor") {
             discountedPrice = furniturePrice * 0.95;
         }
         return discountedPrice;
